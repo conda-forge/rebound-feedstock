@@ -1,6 +1,6 @@
 {% set name = "rebound" %}
-{% set version = "3.4.0" %}
-{% set sha256 = "d070bfd7a8c48a28776b4bae5ba4dcf22d81e7776cd518dc3a3479972104d5bc" %}
+{% set version = "3.6.2" %}
+{% set sha256 = "356fb02ca81081aa12321571293e22d0f10300687cd88bd9e05f3e20a4c7c564" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
