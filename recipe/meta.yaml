@@ -1,6 +1,6 @@
 {% set name = "rebound" %}
-{% set version = "3.6.6" %}
-{% set sha256 = "0df493dbeabba137de5953c76dc9f1c5b2f982631061361046480898f5081baf" %}
+{% set version = "3.6.7" %}
+{% set sha256 = "9579fa5d3d3ec3ccd3a1231a796ee2113c61dda695faaf61f8e70fc2103ebf0d" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
