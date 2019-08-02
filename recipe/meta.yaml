@@ -1,6 +1,6 @@
 {% set name = "rebound" %}
-{% set version = "3.8.2" %}
-{% set sha256 = "a67588e8b1692449fd7ef27b27ec99247fef9ffb06e1a5fa680b8f4adcada23a" %}
+{% set version = "3.9.0" %}
+{% set sha256 = "f5eecc98f6389b8bce5f47596baec9b05137fc786bcaf739135037fd0b5c3a85" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,6 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url:  https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-
 
 build:
   skip: true  # [win]
@@ -30,15 +29,12 @@ test:
   imports:
     - rebound
 
-
-
 about:
   home: http://github.com/hannorein/rebound
   license: GPL3
   license_family: GPL
+  license_file: LICENSE
   summary: 'An open-source multi-purpose N-body code'
-
-
   description:  |
     REBOUND is an N-body integrator, i.e. a software package that can
     integrate the motion of particles under the influence of gravity.
