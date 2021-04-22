@@ -1,6 +1,6 @@
 {% set name = "rebound" %}
-{% set version = "3.16.0" %}
-{% set sha256 = "2686f68afe96351abb2c248c4da7f24d493841cf2596e8e7187fc0ca3287e57b" %}
+{% set version = "3.17.0" %}
+{% set sha256 = "f017ddef137aafccbae15f060e3a5aa6b95abf4e6bbf7b7465255b27760cf5b0" %}
 
 package:
   name: {{ name|lower }}
