@@ -31,7 +31,7 @@ test:
 
 about:
   home: http://github.com/hannorein/rebound
-  license: GPL3
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: An open-source multi-purpose N-body code
