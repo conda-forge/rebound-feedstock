@@ -3,7 +3,7 @@ About rebound
 
 Home: http://github.com/hannorein/rebound
 
-Package license: GPL3
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rebound-feedstock/blob/master/LICENSE.txt)
 
