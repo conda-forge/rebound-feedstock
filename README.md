@@ -265,6 +265,3 @@ Feedstock Maintainers
 * [@hannorein](https://github.com/hannorein/)
 * [@mwcraig](https://github.com/mwcraig/)
 
-
-<!-- dummy commit to enable rerendering -->
-
