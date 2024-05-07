@@ -1,6 +1,6 @@
 {% set name = "rebound" %}
-{% set version = "4.3.2" %}
-{% set sha256 = "655f85bc83b713824b252853ba24aa4cf253e7768e1732013a2492a4c4dfa952" %}
+{% set version = "4.4.0" %}
+{% set sha256 = "95dd257c2376c4f6c239c2a6e5e60e43f7182d4763b44443c0e91152825c35af" %}
 
 package:
   name: {{ name|lower }}
@@ -21,6 +21,7 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
